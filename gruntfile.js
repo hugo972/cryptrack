@@ -20,12 +20,6 @@ module.exports = function (grunt) {
                             "./client/app/system.config.js"
                         ],
                         dest: "./bin/client/"
-                    },
-                    {
-                        expand: true,
-                        flatten: true,
-                        src: ["./web.config"],
-                        dest: "./bin/"
                     }
                 ]
             }

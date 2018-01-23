@@ -8,6 +8,7 @@ export class Server {
     public static start(port: number|string) {
         const server = new Server();
         const httpServer = http.createServer(server.app);
+        console.log(`Server started ${process.env}`);
         httpServer.listen(port);
     }
 
